@@ -38,7 +38,7 @@ int main(){
     Four->next = NULL;
 
     Travel(head);
-
-
+    
     return 0;
+    
 }
