@@ -1,0 +1,6 @@
+{
+    "editor.inlineSuggest.edits.allowCodeShifting": "always",
+    "github.copilot.enable": {
+        "*": false
+    }
+}
