@@ -65,7 +65,7 @@ void display(struct queue *q){
         printf("Queue is Empty: ");
     }
     else{
-        printf("Remaining: \n");
+        printf("Remaining Elements: \n");
         for(int i = q->f+1; i <= q->r; i++){
 
             printf("%d \n",q->arr[i]);
