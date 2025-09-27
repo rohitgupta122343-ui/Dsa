@@ -12,15 +12,15 @@ void Selection_sort(int arr[],int n){
    int min,temp;
     for (int i = 1; i < n; i++)
     {
-        min = i;
+        min = i;                   
         for (int j = i+1; j < n; j++)
         {
             if(arr[j] < min){
                 min = j;
             }
 
-            temp = arr[i];
             arr[i] = arr[min];
+            temp = arr[i];
             arr[min] = temp;
         }
         

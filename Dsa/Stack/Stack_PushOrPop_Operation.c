@@ -77,22 +77,17 @@ int main(){
     s->top = -1;
     s->arr = (int *)malloc (s->size * (sizeof(int)));
 
-    printf("Before Empty: %d \n",isEmpty(s));
-    printf("Before Full:  %d \n",isFull(s));
-
+   
    push(s,10);
    push(s,20);
    push(s,30);
    push(s,40);
    
+      display(s);
+
    printf("Poped Element is: %d \n",pop(s));
    
-   display(s);
-       
-    printf("After Empty: %d \n",isEmpty(s));
-    printf("After Full:  %d \n",isFull(s));
-
-    
-    
+       display(s);
+      
     return 0;
 }
